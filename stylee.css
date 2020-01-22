@@ -81,7 +81,7 @@ button {
 Color:White;
     padding: 4 6;
     background-color: #FF9A8B;
-background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+background-image: linear-gradient(90deg,#0cebeb  0%, #20e3b2 55%, #29ffc6 100%);
  background-size: 200%;
     background-position: left;
     border: 0.5px solid trasparent;
