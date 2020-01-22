@@ -4,7 +4,7 @@ body {
     padding: 5;
       background: rgb(244,56,56);
 background-color: #FFDEE9;
-background-image: linear-gradient(#74ebd5 0%, #ACB6E5 100%);
+background-image: linear-gradient(360deg,#74ebd5 0%, #ACB6E5 100%);
   background-repeat: no-repeat;
     font-family: 'Righteous';
 }
