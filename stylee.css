@@ -4,7 +4,7 @@ body {
     padding: 5;
       background: rgb(244,56,56);
 background-color: #FFDEE9;
-background-image: linear-gradient(180deg, #ACB6E5 0%, #74ebd5 100%);
+background-image: linear-gradient(180deg,#56CCF2 0%, #2F80ED 100%);
    background-repeat: no-repeat;
     font-family: 'Righteous';
 }
@@ -51,7 +51,7 @@ td {
 
 table {
     background-color: #FFDEE9;
-background-image: linear-gradient(180deg,#74ebd5 0%, #ACB6E5 100%);
+background-image: linear-gradient(180deg,#2F80ED 0%, #56CCF2 100%);
   margin: 9 auto;
     max-width: 89%;
     border-radius: 20px;
