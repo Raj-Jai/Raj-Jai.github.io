@@ -56,7 +56,7 @@ table {
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px;
+     box-shadow: 0 1px 10px 5px #4abcff;
     color: #d3d3d3;
     transition: 2s;
 }
@@ -149,14 +149,15 @@ a.fbinner {
     border: 0.5px solid #3b5998;
     background-size: 200% auto;
     border-radius: 12px;
-
+ box-shadow: 0 1px 10px 5px #4abcff;
 
 }
 
 a:hover.fbinner {
     color: black;
     background-position: right center;
-    transition: 0.5s;
+    box-shadow: 0 1px 10px 5px #4abcff;
+    transition: 0.5s ease-in-out;
 
 }
 
@@ -189,14 +190,15 @@ footer {
     font-family: 'bangers', monospace;
     margin: 5px;
     font-size: 22px;
-    transition: 2s
+    box-shadow: 0 1px 10px 5px #5073b8;
+    transition: 2s ease-in-out;
 }
 
 .current {
     background: #4776E6;
     background: linear-gradient(to right, #161616, #494949);
-
     color: #dbdbdb;
+     box-shadow: 0 1px 10px 5px #5073b8;
 }
 
 .fab,
@@ -219,28 +221,31 @@ footer {
 .fa-facebook-f:hover {
     background: linear-gradient(90deg ,#0696ca,#0656cf);
     color: white;
-    
-  box-shadow: 0 5px 15px #0696ca;
+  box-shadow: 0 1px 10px 5px #0696ca;
 }
 
 .fa-quora:hover {
     background: #a62100;
-    color: white;
+    color: white;    
+   box-shadow: 0 1px 10px 5px #a62100;
 
 }
 
 .fa-github:hover {
     background: #333;
     color: white;
+     box-shadow: 0 1px 10px 5px #333;
 }
 
 .fa-at:hover {
     background: #0442bc;
     color: white;
+      box-shadow: 0 1px 10px 5px #0442bc;
 }
 .fa-instagram:hover{
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     color: white;
+     box-shadow: 0 1px 10px 5px #f09433;
 }
 .fa-exchange-alt{
     color: white;
