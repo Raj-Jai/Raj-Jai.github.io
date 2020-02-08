@@ -56,7 +56,7 @@ table {
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
-     box-shadow: 0 1px 10px 5px #4abcff;
+     box-shadow: 0 1px 40px 20px #4abcff;
     color: #d3d3d3;
     transition: 2s;
 }
@@ -149,14 +149,13 @@ a.fbinner {
     border: 0.5px solid #3b5998;
     background-size: 200% auto;
     border-radius: 12px;
- box-shadow: 0 1px 10px 5px #4abcff;
+ box-shadow: 0 1px 15px 5px #2e3760;
 
 }
 
 a:hover.fbinner {
     color: black;
     background-position: right center;
-    box-shadow: 0 1px 10px 5px #4abcff;
     transition: 0.5s ease-in-out;
 
 }
@@ -190,7 +189,6 @@ footer {
     font-family: 'bangers', monospace;
     margin: 5px;
     font-size: 22px;
-    box-shadow: 0 1px 10px 5px #5073b8;
     transition: 2s ease-in-out;
 }
 
@@ -198,7 +196,7 @@ footer {
     background: #4776E6;
     background: linear-gradient(to right, #161616, #494949);
     color: #dbdbdb;
-     box-shadow: 0 1px 10px 5px #5073b8;
+     box-shadow: 0 1px 20px 5px #161616;
 }
 
 .fab,
