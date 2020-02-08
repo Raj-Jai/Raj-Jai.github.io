@@ -80,8 +80,7 @@ th {
 button {
 Color:White;
     padding: 4 6;
-    background-color: #FF9A8B;
-background-image: linear-gradient(90deg,#36D1DC  0%,  #5B86E5 100%);
+  background-image: linear-gradient( 89.5deg,  rgba(246,114,128,1) 0.2%, rgba(248,177,149,1) 90.6% );
  background-size: 200%;
     background-position: left;
     border: 0.5px solid trasparent;
