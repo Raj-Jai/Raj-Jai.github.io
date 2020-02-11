@@ -161,7 +161,7 @@ a:hover.fbinner {
 /*-----------------EXTRA CSS TABLE--------------*/
 
 .thead {
-    background: linear-gradient(90deg, #151617,#3D4043);
+    background: linear-gradient(90deg, #161718,#3D4043);
 }
 
 td.time {
@@ -192,7 +192,7 @@ footer {
 
 .current {
     background: #4776E6;
-    background: linear-gradient(to right, #161616, #494949);
+    background: linear-gradient(to right, #151617, #3D4043);
     color: #dbdbdb;
      box-shadow: 0 1px 20px 5px #161616;
 }
