@@ -29,6 +29,12 @@ function random() {
     } else if ((n == 0 && h >= 0) || (n == 0 && h <= 8)) {
         document.getElementById("sunday").innerHTML = "Enjoy! today is Sunday.";
     }
+    
+     if ((h >= 18) || (h <= 6)) {
+        document.getElementById('pagestyle').setAttribute('href', "dark.css");
+    } else {
+        document.getElementById('pagestyle').setAttribute('href', "style.css");
+    }
 }
 
 function swapStyleSheet(sheet) {
