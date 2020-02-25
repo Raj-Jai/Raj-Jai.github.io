@@ -191,10 +191,12 @@ footer {
 }
 
 .current {
-    background: #4776E6;
-    background: linear-gradient(to right, #151617, #3D4043);
-    color: #dbdbdb;
-     box-shadow: 0 1px 20px 5px #161616;
+
+ background: linear-gradient(270deg, #151617, #1e1f20, #333536);
+background-size: 600% 600%;
+
+animation: currentwave 4s ease infinite;
+    box-shadow: 0 1px 20px 5px #161616;
 }
 
 .fab,
@@ -262,4 +264,10 @@ button.day {
     background: transparent;
     color: white;
     border: 0px solid transparent;
+}
+
+@keyframes currentwave {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
