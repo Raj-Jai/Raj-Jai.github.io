@@ -198,13 +198,12 @@ footer {
 }
 
 .current {
-   background: #B3FFAB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(270deg, #b2ffab, #13fff7);
+    background-size: 400% 400%;
 
-    color:black;
+    animation: curr 4s ease infinite;
+    color: black;
 }
-
 .fab,
 .fas {
     font-size: 26px;
@@ -277,3 +276,18 @@ button.night {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     color: white;
 }
+
+@keyframes curr {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
