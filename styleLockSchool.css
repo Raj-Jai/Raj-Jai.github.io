@@ -1,0 +1,376 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Piedra', cursive;
+    background-size: 120% 120%;
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+    transition: 2s;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+.developedtext {
+    font-family: 'Piedra', cursive;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    text-align: center;
+    transition: 2s;
+}
+
+#love {}
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+
+
+table {
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    margin: 9 auto;
+    max-width: 89%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px;
+    transition: 2s;
+
+}
+
+
+td {
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+td a {
+    text-decoration: none;
+}
+
+td span {
+    color: black;
+    transition: transform 0.4s ease-in-out, opacity .5s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+td::before {
+    content: attr(data-items);
+    color: #3046fd;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translate(-150%, 0);
+    transition: transform 0.4s ease-in-out, opacity .6s ease-in-out;
+}
+
+td:hover span {
+    opacity: 0;
+}
+
+
+td:hover::before {
+    opacity: 1;
+    transform: translate(-25%, 0);
+    transition-delay: .4s;
+}
+
+
+
+
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+.thead {
+    Color: black;
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(270deg, #10ff78, #00eaec);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+td.time {
+    font-family: 'Piedra', cursive;
+    font-size: 20px;
+}
+
+td.gap {
+    font-weight: bolder;
+    font-size: 40PX;
+}
+
+footer {
+    text-align: center;
+    margin: 0 -8;
+    transition: 2s;
+}
+
+#sunday {
+    text-align: center;
+    color: darkorchid;
+    font-family: 'Piedra', cursive;
+    margin: 5px;
+    font-size: 22px;
+    transition: 2s;
+    position: absolute;
+    top:65px;
+    left: 50%;
+    margin-left: -60px;
+
+}
+
+
+.current {
+    background: linear-gradient(270deg, #00ffd4, #56fb79);
+    background-size: 400% 400%;
+
+    -webkit-animation: current 4s ease infinite;
+    -moz-animation: current 4s ease infinite;
+    animation: current 4s ease infinite;
+}
+
+td.ctime {
+       background: linear-gradient(139deg, #00ffdf, #d1ff19);
+    background-size: 400% 400%;
+
+    -webkit-animation: ctimeanime 4s ease infinite;
+    -moz-animation: ctimeanime 4s ease infinite;
+    animation: ctimeanime 4s ease infinite;
+    color: white;
+
+}
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: linear-gradient(90deg, #0696ca, #0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #0442bc;
+    color: white;
+}
+
+.fa-moon {
+    font-size: 20;
+    background: transparent;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fa-exchange-alt {
+    color: black;
+    background: transparent;
+    border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+
+button.day {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+button.night {
+    
+    margin-left: 93%;
+    margin-top: -20;
+    margin-bottom: -40;
+    font-size: 20px;
+    background: transparent;
+    border: 0px solid transparent;
+    text-align: right;
+     position: absolute;
+    top: 80px;
+    right: 5%;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+@-webkit-keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.banner {
+    border: 2px double black;
+    border-radius: 25px;
+    padding: 100px;
+    font-size: 50px;
+    position: absolute;
+    margin: 15% 0px 0px 15%;
+    background: linear-gradient(270deg, #ff7272, #ac57ff);
+    background-size: 400% 400%;
+    animation: banner 30s ease infinite;
+    color: white;
+    transform: rotate(340deg);
+    filter: blur(-5px);
+    z-index: 3;
+}
+
+@keyframes banner {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+
+@-webkit-keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+
+.blur {
+    filter: blur(5px);
+}
+
+#Clock {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 560px) {
+    
+ * , td.time {
+        font-size: 15px;
+    }
+    
+    td:hover::before {
+        transform: translate(-10%, 0);
+    }
+
+
+}
+
