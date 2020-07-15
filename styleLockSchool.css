@@ -169,8 +169,8 @@ footer {
 }
 
 td.ctime {
-       background: linear-gradient(139deg, #00ffdf, #d1ff19);
-    background-size: 400% 400%;
+       background: rgb(14,247,199);
+background: linear-gradient(90deg, rgba(14,247,199,1) 2%, rgba(129,205,251,1) 52%, rgba(146,255,155,1) 98%); background-size: 400% 400%;
 
     -webkit-animation: ctimeanime 4s ease infinite;
     -moz-animation: ctimeanime 4s ease infinite;
