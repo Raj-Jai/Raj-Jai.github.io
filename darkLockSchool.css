@@ -3,8 +3,8 @@ body {
     margin: 5;
     padding: 5;
     background-color: #000000;
-    background-image: linear-gradient(315deg, #3D4043 0%, #0E0F0F 74%);
-   font-family: 'Piedra', cursive;
+    Background-image: linear-gradient(315deg, #3D4043 0%, #0E0F0F 74%);
+   font-family: 'Darker Grotesque', sans-serif;
     background-size: 120% 120%;
 }
 
@@ -29,7 +29,7 @@ a.schoollink:hover {
 
 .developedtext {
     color: #d3d3d3;
-    font-family: 'Piedra', cursive;
+    
     font-size: 18px;
     word-spacing: 3px;
     margin-top: 2px;
@@ -107,7 +107,7 @@ td:hover::before {
 }
 
 td.time {
-    font-family: 'Piedra', cursive;
+    
     font-size: 20px;
 }
 
@@ -126,7 +126,7 @@ footer {
 #sunday {
     text-align: center;
     color: aqua;
-    font-family: 'Piedra', cursive;
+    
     margin: 5px;
     font-size: 22px;
     transition: 2s ease-in-out;
