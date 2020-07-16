@@ -9,7 +9,7 @@ body {
     background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    font-family: 'Piedra', cursive;
+    font-family: 'Odibee Sans', cursive;
     background-size: 120% 120%;
 }
 
@@ -32,7 +32,7 @@ a.schoollink:hover {
 }
 
 .developedtext {
-    font-family: 'Piedra', cursive;
+    
     font-size: 18px;
     word-spacing: 3px;
     margin-top: 2px;
@@ -129,7 +129,7 @@ td:hover::before {
 }
 
 td.time {
-    font-family: 'Piedra', cursive;
+    
     font-size: 20px;
 }
 
@@ -147,7 +147,7 @@ footer {
 #sunday {
     text-align: center;
     color: darkorchid;
-    font-family: 'Piedra', cursive;
+
     margin: 5px;
     font-size: 22px;
     transition: 2s;
