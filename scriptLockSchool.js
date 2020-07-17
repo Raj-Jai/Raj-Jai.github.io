@@ -99,7 +99,7 @@ function random() {
     } else if (n == 1) {
         document.getElementById("monday").classList.add("current");
 
-        if hm>= 390 && hm<= 450) {
+        if (hm>= 390 && hm<= 450) {
             document.getElementById("m1").classList.add("ctime");
         } else if (hm >= 485 && hm <= 545) {
             document.getElementById("m2").classList.add("ctime");
