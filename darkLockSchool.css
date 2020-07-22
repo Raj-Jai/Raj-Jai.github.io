@@ -55,7 +55,7 @@ table {
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
-    color: #d3d3d3;
+    color: #ffffff;
     transition: 2s;
 }
 
@@ -131,7 +131,7 @@ footer {
     font-size: 22px;
     transition: 2s ease-in-out;
     position: absolute;
-    top:65px;
+    top:50px;
     left: 50%;
     margin-left: -60px;
 }
@@ -192,7 +192,7 @@ footer {
     box-shadow: 0 1px 10px 5px #333;
 }
 
-.fa-at:hover {
+.fa-envelope-open:hover {
     background: #0442bc;
     color: white;
     box-shadow: 0 1px 10px 5px #0442bc;
