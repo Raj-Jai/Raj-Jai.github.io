@@ -2,13 +2,11 @@
 body {
     margin: 5;
     padding: 5;
-    background: #1FA2FF;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   background: rgb(49,255,242);
+background: -moz-linear-gradient(144deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+background: -webkit-linear-gradient(144deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+background: linear-gradient(144deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31fff2",endColorstr="#a0eaf9",GradientType=1);
     /*font-family: 'Piedra', cursive;*/
     font-family: 'Bangers', Impact, Charcoal, sans-serif;
     background-size: 120% 120%;
@@ -56,12 +54,11 @@ td {
 
 
 table {
-    background: #1FA2FF;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(49,255,242);
+background: -moz-linear-gradient(333deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+background: -webkit-linear-gradient(333deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+background: linear-gradient(333deg, rgba(49,255,242,1) 0%, rgba(160,234,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31fff2",endColorstr="#a0eaf9",GradientType=1);
 
 
 
@@ -121,12 +118,11 @@ td:hover::before {
 
 .thead {
     Color: black;
-    background: #C9FFBF;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #FFAFBD, #C9FFBF);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(270deg, #10ff78, #00eaec);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: rgb(0,255,239);
+background: -moz-linear-gradient(87deg, rgba(0,255,239,1) 0%, rgba(160,234,249,1) 100%);
+background: -webkit-linear-gradient(87deg, rgba(0,255,239,1) 0%, rgba(160,234,249,1) 100%);
+background: linear-gradient(87deg, rgba(0,255,239,1) 0%, rgba(160,234,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffef",endColorstr="#a0eaf9",GradientType=1);
 }
 
 td.time {
