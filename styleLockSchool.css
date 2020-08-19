@@ -143,7 +143,7 @@ footer {
 
 #sunday {
     text-align: center;
-    color: darkorchid;
+    color: #1aa9ff;
 
     margin: 5px;
     font-size: 22px;
@@ -157,8 +157,12 @@ footer {
 
 
 .current {
-    background: linear-gradient(270deg, #00ffd4, #56fb79);
+    background: linear-gradient(270deg, #0ce6fd, #82d8ff);
     background-size: 400% 400%;
+    
+    -webkit-box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
+-moz-box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
+box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
 
     -webkit-animation: current 4s ease infinite;
     -moz-animation: current 4s ease infinite;
