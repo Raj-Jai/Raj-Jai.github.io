@@ -62,7 +62,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31fff2",endCo
 
 
 
-    margin: 9 auto;
+    margin: 35 auto 10;
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
@@ -153,7 +153,7 @@ footer {
     font-size: 22px;
     transition: 2s;
     position: absolute;
-    top:55px;
+    top:60px;
     left: 50%;
     margin-left: -60px;
 
@@ -249,7 +249,7 @@ button.day {
 button.night {
     
     margin-left: 93%;
-    margin-top: -20;
+    margin-top: -17;
     margin-bottom: -40;
     font-size: 20px;
     background: transparent;
@@ -362,7 +362,13 @@ button.night {
 }
 
 #Clock {
-    text-align: left;
+    margin: 5px;
+    transition: 2s;
+    position: absolute;
+ 
+    margin-top: -17;
+     top: 85px;
+    left: 5%;
 }
 
 
