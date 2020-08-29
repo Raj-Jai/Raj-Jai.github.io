@@ -46,6 +46,7 @@ table,
 th,
 td {
     text-align: center;
+    color:white;
     border-collapse: collapse;
 }
 
@@ -109,6 +110,7 @@ td:hover::before {
 
 .thead {
     background: linear-gradient(90deg, #161718, #3D4043);
+    color:white;
 }
 
 td.time {
