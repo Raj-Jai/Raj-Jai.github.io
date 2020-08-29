@@ -51,7 +51,7 @@ td {
 
 table {
     background-image: linear-gradient(to bottom right, #35383B, #3C3F42);
-   margin: 9 auto;
+    margin: 35 auto 10;
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
@@ -129,9 +129,9 @@ footer {
     
     margin: 5px;
     font-size: 22px;
-    transition: 2s ease-in-out;
+    transition: 2s;
     position: absolute;
-    top:55px;
+    top:60px;
     left: 50%;
     margin-left: -60px;
 }
@@ -217,13 +217,14 @@ button.night {
 }
 
 button.day {
-    margin-left: 90%;
-    margin-top: -20;
+      margin-left: 93%;
+    margin-top: -17;
     margin-bottom: -40;
     font-size: 20px;
     background: transparent;
     color: white;
     border: 0px solid transparent;
+     text-align: right;
      position: absolute;
     top: 80px;
     right: 5%;
@@ -296,8 +297,15 @@ button.day {
     filter: blur(5px);
 }
 #Clock{
-    text-align: left;
+ 
     color: white;
+    margin: 5px;
+    transition: 2s;
+    position: absolute;
+ 
+    margin-top: -17;
+     top: 85px;
+    left: 5%;
 }
 
 
