@@ -1,130 +1,189 @@
-    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sansita+Swashed:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sansita+Swashed:wght@500&display=swap');
+    html {
+        scroll-behavior: smooth;
+    }
 
-        html {
-  scroll-behavior: smooth;
-}
-        
-        body {
-            background: url(images/background.jpg);
-            height:100%;
-            margin: 0;
-            padding: 0;
-            font-family: 'Sansita Swashed', cursive;
-            background-attachment: fixed;
+    body {
+        background: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: 110% 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Sansita Swashed', cursive;
+        background-attachment: fixed;
 
-        }
-        ul#navbar{
-            top:-16px;
-            background-color:rgba(118,96,85,0.9);
-            width: 100%;
-            position: fixed;
-        }
+    }
 
-
-
-        li {
-
-            display: inline-block;
-            padding: 0 10px 25px 10px;
-            font-size: 1.2em;
-        }
-        a.index{
-            text-decoration: none;
-            color:crimson;
-        }
-
-        a.nav,
-        .active {
-            text-decoration: none;
-            color: white;
-        }
-
-        .active {
-            padding: 7px;
-            border-bottom: 2px solid white;
-        }
-
-        .logo img {
-            height: 50px;
-            width: auto;
-        }
-
-        div.container {
-            margin: 40px 200px;
-            background: #ffffff6e;
-            padding: 80px;
-            text-align: center;
-            border-radius: 10px;
-            box-shadow: 20px 20px 50px #d4cecbe6;
-        }
-
-        h1 {
-            color: white;
-            text-align: center;
-            margin-top: 150px;
-        }
-
-        p {
-            font-size: 19px;
-        }
-
-        h2,h3 {
-            text-decoration: underline;
-        }
-
-
-        img.image {
-            height: 300px;
-            width: auto;
-            border: 5px solid white;
-            border-radius: 10px;
-            box-shadow: 20px 20px 70px black;
-            margin: 30px;
-        }
-        .top_nav{
-            position:fixed;
-            right: 2%;
-            top: 90%;
-            background:black;
-            padding: 10px;
-            border-radius: 30%;
-            
-        }
-
-form{
-    text-decoration: underline;
-}
-
-input,textarea{
-    margin: 10px;
-    padding: 10px;
-    border: 0px solid transparent;
-    border-bottom: 3px solid #664e4e;
-    background:#dcdbdb33;
-}
-
-input.btn{
-    padding: 8px 15px;
-    background: #A1FFCE;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    border-radius: 10px;
-    
-            font-family: 'Sansita Swashed', cursive;
-}
+    ul#navbar {
+        top: -16px;
+        height: 70px;
+        background-color:#3da1ec73;
+        width: 100%;
+        position: fixed;
+    }
 
 
 
+    li {
 
-img.india{
-    float: right;
+        display: inline-block;
+        padding: 0 10px 25px 10px;
+        font-size: 1.2em;
+    }
+
+    a.index {
+        text-decoration: none;
+        color:#220282;
+    }
+
+    a.nav,
+    .active {
+        text-decoration: none;
+        color: white;
+    }
+
+    .active {
+        padding: 7px;
+        border-bottom: 2px solid white;
+    }
+
+    .logo img {
+        margin-top: 10px;
+        height: 40px;
+        width: auto;
+    }
+
+    div.container {
+        margin: 40px 200px;
+        background: #ffffff6e;
+        padding: 80px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 20px 20px 50px #d4cecbe6;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    h2,
+    h3 {
+        text-decoration: underline;
+    }
+
+
+    img.image {
+        height: 300px;
+        width: auto;
+        border: 5px solid white;
+        border-radius: 10px;
+        box-shadow: 20px 20px 70px black;
+        margin: 30px;
+    }
+
+    .top_nav {
+        position: fixed;
+        right: 2%;
+        top: 90%;
+        background:white;
+        padding: 10px;
+        border-radius: 30%;
+
+    }
+
+    form {
+        text-decoration: underline;
+    }
+
+    input,
+    textarea {
+        margin: 10px;
+        padding: 10px;
+        border: 0px solid transparent;
+        border-bottom: 3px solid #006971;
+        background: #dcdbdb33;
+        font-family: 'Sansita Swashed', cursive;
+    }
+
+    input.btn {
+        padding: 8px 15px;
+        background: #A1FFCE;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius: 10px;
+
+        font-family: 'Sansita Swashed', cursive;
+    }
+
+
+
+    img.india {
+        float: right;
         height: 350px;
-            width: auto;
-    border: 5px solid white;
-            border-radius: 10px;
-            box-shadow: 20px 20px 70px black;
-            margin: 30px;
-}
+        width: auto;
+        border: 5px solid white;
+        border-radius: 10px;
+        box-shadow: 20px 20px 70px black;
+        margin: 30px;
+    }
+
+    hr {
+        border-top: 1px solid black;
+    }
+
+
+
+
+    .fab,
+    .fas {
+        font-size: 26px;
+        padding: 10px;
+        margin: 0;
+        background: black;
+        color: white;
+        margin: 2 0;
+        transition: 0.5s;
+    }
+
+    .fab:hover,
+    .fas:hover {
+        border-bottom: 2px solid black;
+        margin-bottom: -2px;
+    }
+
+    .fa-facebook-f:hover {
+        background: linear-gradient(90deg, #0696ca, #0656cf);
+        color: white;
+    }
+
+    .fa-quora:hover {
+        background: #a62100;
+        color: white;
+
+    }
+
+    .fa-github:hover {
+        background: #333;
+        color: white;
+    }
+
+    .fa-envelope-open:hover {
+        background: #0442bc;
+        color: white;
+    }
+
+    .fa-instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        color: white;
+    }
