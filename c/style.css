@@ -55,12 +55,12 @@
     }
 
     div.container {
-        margin: 40px 200px;
+        margin: 40px 200px 90px;
         background: #ffffff6e;
         padding: 80px;
         text-align: center;
         border-radius: 10px;
-        box-shadow: 20px 20px 50px #d4cecbe6;
+        box-shadow: 0px 0px 50px #40ffcaeb;
     }
 
     h1 {
