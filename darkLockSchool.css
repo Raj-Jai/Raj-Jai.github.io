@@ -3,7 +3,7 @@ body {
     margin: 5;
     padding: 5;
      background-color: #000000;
-    Background-image: linear-gradient(315deg, #3D4043 0%, #0E0F0F 74%);
+    Background-color:black;
    font-family: 'Bangers', Impact, Charcoal, sans-serif;
     /*font-family: 'Piedra', cursive;*/
     font-family: 'Bangers', Impact, Charcoal, sans-serif;
@@ -54,7 +54,7 @@ td {
 
 
 table {
-   background-image: linear-gradient(to bottom right, #35383B, #3C3F42);
+   background-color:black;
     margin: 35 auto 10;
     max-width: 89%;
     border-radius: 30px;
