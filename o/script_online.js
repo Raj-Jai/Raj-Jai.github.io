@@ -83,9 +83,9 @@ function random() {
 
 
     if ((h >= 18) || (h <= 6)) {
-        document.getElementById('pagestyle').setAttribute('href', "darkLockSchool.css");
+        document.getElementById('pagestyle').setAttribute('href', "dark_style_online.css");
     } else {
-        document.getElementById('pagestyle').setAttribute('href', "styleLockSchool.css");
+        document.getElementById('pagestyle').setAttribute('href', "style_online.css");
     }
 }
 
