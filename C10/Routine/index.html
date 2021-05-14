@@ -1,0 +1,167 @@
+<html>
+
+<head>
+   <!--- <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet"> --->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/favicon.png" />
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="styleLockSchool.css">
+    <title>Lockdown Routine</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+      <!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#3ce3ed">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#3ce3ed">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#3ce3ed">
+   
+
+</head>
+
+<body onload="onrun();">
+    <div class="head">D.A.V Public School,Ranchi</div>
+    <div class="head"> Lockdown Routine
+        <br>Class-10</div>
+    <span id="Clock"></span>
+    
+    <button title="TRY-ALT+C" accesskey="c" class="day" onclick="swapStyleSheet('styleLockSchool.css')">Light</button>
+    
+    <button title="TRY-ALT+X" accesskey="x" class="night" onclick="swapStyleSheet('darkLockSchool.css')">Dark</button>
+    <!--<a href="indexe.html"><i class="fas fa-exchange-alt"></i></a>-->
+
+    <div id="sunday"></div>
+    <table>
+
+        <tr class="thead">
+            <th>DAY</th>
+            <th>1 <sup> st</sup>
+            </th>
+            <th>2<sup>nd</sup>
+            </th>
+            <th>3<sup>rd</sup>
+            </th>
+            <th>4<sup>th</sup>
+
+        </tr>
+
+
+        <tr id="monday">
+            <th>Monday</th>
+           
+            <td id="m1" data-items=' Wasim Sir '><a href="tel:+91 95250 94100"><span>Physics</span></a>
+            </td>
+            <td id="m2" data-items='Renna Mam  '> <a href="tel:+91 87893 90401"> <span>English</span></a>
+            </td>
+             <td id="m3" data-items=' Laxman Sir '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="m4" data-items='Jayashree mam  '> <a href="tel:+918292473532"> <span>Computer</span></a>
+            </td>
+
+
+        </tr>
+
+        <tr id="tuesday">
+            <th>Tuesday</th>
+            
+            <td id="t1" data-items=' Ashish Sir '><a href="tel:+91 79799 41682"><span>Economics</span></a>
+            </td>
+            <td id="t2" data-items='Renna Mam  '> <a href="tel:+91 87893 90401"> <span>English</span></a>
+            </td>
+            <td id="t3" data-items='Laxman Sir  '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="t4" data-items=' C.B Singh Sir '><a href="tel:+91 98013 33748"><span>Civics</span></a>
+            </td>
+
+        </tr>
+
+        <tr id="wednesday">
+            <th>Wednesday</th>
+            
+     <td id="w1" data-items=' D.Pandey Sir '><a href='tel:+91 6204 414 218'><span>Chemistry</span></a>
+            </td>
+            <td id="w2" data-items='Renna Mam  '> <a href="tel:+91 87893 90401"> <span>English</span></a>
+            </td>
+            <td id="w3" data-items='Laxman Sir  '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="w4" data-items=' C.B Singh Sir '><a href="tel:+91 98013 33748"><span>History</span></a>
+            </td>
+
+
+        </tr>
+
+        <tr id="thursday">
+            <th>Thursday</th>
+            
+            <td id="th1" data-items=' D.Pandey Sir '><a href='tel:+91 6204 414 218'><span>Chemistry</span></a>
+            </td>
+            <td id="th2" data-items='Bindu/Chanda Mam'><span>Sans/Hindi</span>
+            </td>
+            <td id="th3" data-items='Laxman Sir  '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="th4" data-items=' Ashish Sir '><a href="tel:+91 79799 41682"><span>Economics</span></a>
+            </td>
+
+        </tr>
+        <tr id="friday">
+            <th>Friday</th>
+            
+            <td id="f1" data-items='Bindu/Chanda Mam'><span>Sans/Hindi</span>
+            </td>
+            <td id="f2" data-items=' Sunita Mam '><a href="tel:+918825342300"><span>Biology</span></a>
+            </td>
+            <td id="f3" data-items='Laxman Sir  '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="f4" data-items='C.B Singh Sir  '><a href="tel:+919576726422"><span>Geography</span></a>
+            </td>
+
+        </tr>
+
+        <tr id="saturday">
+            <th>Saturday</th>
+            
+            <td id="s1" data-items='Bindu/Chanda Mam'><span>Sans/Hindi</span>
+            </td>
+            <td id="s2" data-items=' Sunita Mam '><a href="tel:+918825342300"><span>Biology</span></a>
+            </td>
+            <td id="s3" data-items='Laxman Sir  '> <a href="tel:+918757765162"><span>Maths</span></a>
+            </td>
+
+            <td id="s4" data-items='Jayashree mam  '> <a href="tel:+918292473532"> <span>Computer</span></a>
+            </td>
+        </tr>
+
+        <tr class="thead">
+            <th>Time</th>
+            <td class="time">8:30 - 9:30</td>
+            <td class="time">9:55 - 10:55</td>
+            <td class="time">11:15 - 12:15</td>
+            <td class="time">12:35 - 1:35</td>
+
+        </tr>
+    </table>
+    <div class="developedtext">Made with <span id="love">Joy</span> by Jai Raj </div> <br>
+    <footer>Follow me on<br><a href="https://www.facebook.com/imjairaj" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/me.jairaj/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://github.com/Raj-Jai" target="_blank"><i class="fab fa-github"></i></a><a href="mailto:jairaj0616@gmail.com"><i class="fas fa-envelope-open"></i></a> <br>
+        © Jai 2020 All Rights Reserved.
+        <br>
+
+        <a class="hitCounter" title="Hit counter" data-name="19ae3b80383468583fab271910f4da29|5|page|1|#000000|#ffffff|small|s-hit"></a>
+       <br>
+     <iframe id="Countdown" src="https://free.timeanddate.com/countdown/i7p3yz5a/n1595/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cacf00/cpc000/pc000/tc66c/fs100/szw192/szh81/tatExams%20Starts%20in../tacfff/tptTime%20since%20Event%20started%20in/tpc000/macfff/mpc000/iso2021-05-06T00:00:00/bas2/bacddd/pa8" allowTransparency="true" frameborder="0" width="110" height="66"></iframe>
+ 
+       <script>
+            document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() + "'><\/script>");
+
+        </script>
+
+
+    </footer>
+    <script src="scriptLockSchool.js"> </script>
+</body>
+
+</html>

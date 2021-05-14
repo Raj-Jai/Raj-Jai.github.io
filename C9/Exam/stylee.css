@@ -1,0 +1,148 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;background-color: #FFDEE9;
+background-image: linear-gradient(143deg, #FFDEE9 14%, #B5FFFC 100%);
+
+   background-repeat: no-repeat;
+    font-family: 'Righteous';
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+div.developed {
+    font-family: 'bangers', monospace;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.developedtext {
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid #17d6e8;
+    border-collapse: collapse;
+}
+
+table {
+   background-color: #FFDEE9;
+background-image: linear-gradient(301deg, #FFDEE9 14%, #B5FFFC 100%);
+
+  margin: 9 auto;
+    max-width: 89%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+td {
+    padding: 7px;
+}
+
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+
+footer {
+    text-align: center;
+}
+
+th {
+    color: black;
+    background: transparent;
+    padding: 2 4;
+}
+
+button {
+Color:White;
+    padding: 4 6;
+  background-image: linear-gradient( 89.5deg,  rgba(246,114,128,1) 0.2%, rgba(248,177,149,1) 90.6% );
+ background-size: 200%;
+    background-position: left;
+    border: 0.5px solid trasparent;
+    font-family: 'bangers', monospace;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-position: right;
+}
+
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: linear-gradient(110deg, #0696ca, #0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #ac14ff;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(60deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+.fa-exchange-alt{
+Color:black ;
+    background: transparent;
+    border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+

@@ -1,0 +1,230 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/favicon.png" />
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="styleLock.css">
+    <title>Lockdown Routine</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+
+
+
+</head>
+
+<body onload="onrun();">
+    <div class="head">Atma Nirbhar Public School,India</div>
+    <div class="head"> Lockdown Routine
+        <br>Class-10</div>
+    <span id="Clock"></span>
+    <button class="day" onclick="swapStyleSheet('styleLock.css')">Light</button>
+    <button class="night" onclick="swapStyleSheet('darkLock.css')">Dark</button>
+
+    <!--<a href="indexe.html"><i class="fas fa-exchange-alt"></i></a>-->
+
+    <div id="sundayNotify"></div>
+    <table>
+
+        <tr class="thead">
+            <th>DAY</th>
+            <th>1 <sup> st</sup>
+            </th>
+            <th>2<sup>nd</sup>
+            </th>
+            <th>3<sup>rd</sup>
+            </th>
+            <th>4<sup>th</sup>
+            </th>
+            <TH>RECESS</TH>
+            <th>5<sup>th</sup>
+            </th>
+            <th>6<sup>th</sup>
+            </th>
+            <th>7<sup>th </sup>
+            </th>
+            <th>7<sup>th </sup>
+            </th>
+        </tr>
+
+
+
+        <tr id="sunday">
+            <th>Sunday</th>
+            <td id='1sunday'>Vedic Maths<span class="outer"><span class="inner">Anjaan Sir</span></span>
+            </td>
+            <td id='2sunday'>Maths<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id='3sunday'>Chemistry<span class="outer"> <span class="inner">Deepak Pandey Sir</span> </span>
+            </td>
+            <td id='4sunday'>English (Beehive)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+            <td id='5sunday'>E</td>
+            <td id='6sunday'>Geography<span class="outer"><span class="inner">Anamika Mam</span></span>
+            </td>
+            <td id='7sunday'>Maths<span class="outer"> <span class="inner">S.Thakur Sir</span> </span>
+            </td>
+            <td id='8sunday'>Civics<span class="outer"><span class="inner">C.B Singh Sir</span></span>
+            </td>
+            <td id='9sunday'>Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+
+
+
+        <tr id="monday">
+            <th>Monday</th>
+            <td id="1monday">Vedic Maths<span class="outer"><span class="inner">Anjaan Sir</span></span>
+            </td>
+            <td id="2monday">Maths<span class="outer"> <span class="inner">S.Thakur Sir</span> </span>
+            </td>
+            <td id="3monday">Civics<span class="outer"><span class="inner">C.B Singh Sir</span></span>
+            </td>
+            <td id="4monday">English (Beehive)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+            <td id="5monday">R</td>
+            <td id="6monday">Karate<span class="outer"> <span class="inner">Nanad Kishore Sir </span></span>
+            </td>
+            <td id="7monday">Maths<span class="outer"> <span class="inner">S.Thakur Sir</span> </span>
+            </td>
+            <td id="8monday">Library<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/swetasingh.pankaj">Sweta Mam</a></span>
+            </td>
+            <td id="9monday">Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+
+        <tr id="tuesday">
+            <th>Tuesday</th>
+            <td id='1tuesday'>Vedic Maths<span class="outer"><span class="inner">Anjaan Sir</span></span>
+            </td>
+            <td id='2tuesday'>Maths<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id='3tuesday'>Chemistry<span class="outer"> <span class="inner">Deepak Pandey Sir</span> </span>
+            </td>
+            <td id='4tuesday'>English (Beehive)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+            <td id='5tuesday'>E</td>
+            <td id='6tuesday'>Geography<span class="outer"><span class="inner">Anamika Mam</span></span>
+            </td>
+            <td id='7tuesday'>Maths<span class="outer"> <span class="inner">S.Thakur Sir</span> </span>
+            </td>
+            <td id='8tuesday'>Civics<span class="outer"><span class="inner">C.B Singh Sir</span></span>
+            </td>
+            <td id='9tuesday'>Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+
+        <tr id="wednesday">
+            <th>Wednesday</th>
+            <td id="1wednesday">Vedic Maths<span class="outer"><span class="inner">Anjaan Sir</span></span>
+            </td>
+            <td id="2wednesday">I.T<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/jayashree.bhadani">Jayshreee Mam</a></span>
+            </td>
+            <td id="3wednesday">Maths<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id="4wednesday">English (Moments)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+
+            <td id="5wednesday">C</td>
+
+            <td id="6wednesday">Geography<span class="outer"><span class="inner">Anamika Mam</span></span>
+            </td>
+            <td id="7wednesday">Maths<span class="outer"> <span class="inner">S.Thakur Sir</span> </span>
+            </td>
+            <td id="8wednesday">Economics<span class="outer"><span class="inner">Nitin Kumar</span></span>
+            </td>
+            <td id="9wednesday">Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+
+        <tr id="thursday">
+            <th>Thursday</th>
+            <td id="1thursday">Sanskrit/Hindi<span class="outer"><span class="inner">Unknown/Chanda Mam</span></span>
+            </td>
+            <td id="2thursday">Physics<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id="3thursday">I.T<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/jayashree.bhadani">Jayshreee Mam</a></span>
+            </td>
+            <td id="4thursday">English (Moments)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+            <td id="5thursday">E</td>
+            <td id="6thursday">History<span class="outer"><span class="inner">C.B Singh Sir</span></span>
+            </td>
+            <td id="7thursday">Biology<span class="outer"><span class="inner">Manoj Sir</span> </span>
+            </td>
+            <td id="8thursday">Economics<span class="outer"><span class="inner">Nitin Kumar</span></span>
+            </td>
+            <td id="9thursday">Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+        <tr id="friday">
+            <th>Friday</th>
+            <td id="1friday">Sanskrit/Hindi<span class="outer"><span class="inner">Unknown/Chanda Mam</span></span>
+            </td>
+            <td id="2friday">Physics<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id="3friday">Biology<span class="outer"><span class="inner">Manoj sir</span> </span>
+            </td>
+            <td id="4friday">Vedic Maths<span class="outer"><span class="inner">Anjaan Sir</span></span>
+            </td>
+            <td id="5friday">E</td>
+            <td id="6friday">Chemistry<span class="outer"> <span class="inner">Deepak Pandey Sir</span> </span>
+            </td>
+            <td id="7friday">History<span class="outer"><span class="inner">C.B Singh Sir</span></span>
+            </td>
+            <td id="8friday">Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+            <td id="9friday">Game🏏<span class="outer"> <span class="inner">Nhi Pata</span> </span>
+            </td>
+        </tr>
+
+        <tr id="saturday">
+            <th>Saturday</th>
+            <td id="1saturday">Sanskrit/Hindi<span class="outer"><span class="inner">Unknown/Chanda Mam</span></span>
+            </td>
+            <td id="2saturday">Biology<span class="outer"><span class="inner">Manoj sir</span> </span>
+            </td>
+            <td id="3saturday">I.T<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/jayashree.bhadani">Jayshreee Mam</a></span>
+            </td>
+            <td id="4saturday">English (W.B/P.P)<span class="outer"><span class="inner">Sujata Mam</span></span>
+            </td>
+            <td id="5saturday">S!</td>
+            <td id="6saturday">Chemistry<span class="outer"> <span class="inner">Deepak Pandey</span> </span>
+            </td>
+            <td id="7saturday">Physics<span class="outer"><span class="inner">S.Thakur Sir</span></span>
+            </td>
+            <td id="8saturday">Science Practical<span class="outer"><span class="inner">Nhi Pata</span></span>
+            </td>
+            <td id="9saturday">Science Practical<span class="outer"><span class="inner">Nhi Pata</span></span>
+            </td>
+        </tr>
+
+        <tr class="thead">
+            <th>Time</th>
+            <td class="time">5:00 - 6:00</td>
+            <td class="time">6:20 - 8:00</td>
+            <td class="time">8:00 - 9:00</td>
+            <td class="time">9:00 - 10:00</td>
+            <td class="time">10:30 - 1:00</td>
+            <td class="time">1:00 - 3:00</td>
+            <td class="time">3:00 - 4:00</td>
+            <td class="time">4:00 - 7:00</td>
+            <td class="time">7:00 - 9:00</td>
+        </tr>
+    </table>
+    <div class="developedtext">Made with <span id="love">Joy</span> by Jai Raj </div> <br>
+    <footer>Follow me on<br><a href="https://www.facebook.com/imjairaj" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/me.jairaj/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://github.com/Raj-Jai" target="_blank"><i class="fab fa-github"></i></a><a href="mailto:jairaj0616@gmail.com"><i class="fas fa-at"></i></a> <br>
+        © Jai 2020 All Rights Reserved.
+        <br>
+
+        <!--    <a class="hitCounter" title="Hit counter" data-name="19ae3b80383468583fab271910f4da29|5|page|1|#000000|#ffffff|small|s-hit"></a>
+        <script>
+            document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v=" + Date.now() + "'><\/script>"); 
+
+        </script> -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+
+
+    </footer>
+    <script src="scriptLockdown.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-family: 'Piedra', cursive;
+    background-size: 120% 120%;
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+    transition: 2s;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+.developedtext {
+    font-family: 'Piedra', cursive;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    text-align: center;
+    transition: 2s;
+}
+
+#love {}
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+
+
+table {
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    margin: 2% 15% 0% 15%;
+    max-width: 89%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px;
+    transition: 2s;
+
+}
+
+td {
+    padding: 7px;
+}
+
+/*-------------TABLE SIMPLE DATA-------------------*/
+td .outer {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+
+}
+
+td:hover .outer {
+    visibility: visible;
+}
+
+.inner {
+    background: #f2709c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff9472, #f2709c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff9472, #f2709c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 7px;
+    color: #fff;
+    border: 0.5px solid black;
+    background-size: 200% auto;
+    border-radius: 12px;
+}
+
+.inner:hover {
+    background-position: right center;
+    transition: 0.5s;
+}
+
+/*------------------TABLE TELEPHONE DATA---------------*/
+td .telouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .telouter {
+    visibility: visible;
+}
+
+a.telinner {
+    background-image: linear-gradient(to right, #2066f3 50%, #fff 50%);
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #2066f3;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.telinner {
+    color: #2066f3;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*------------------TABLE FACEBOOK DATA---------------*/
+
+
+td .fbouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .fbouter {
+    visibility: visible;
+}
+
+a.fbinner {
+    background: #00c6ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0072ff, #00c6ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0072ff, #00c6ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #3b5998;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.fbinner {
+    color: #ffffff;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+.thead {
+    Color: black;
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(270deg, #10ff78, #00eaec);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+td.time {
+   font-family: 'Piedra', cursive;
+    font-size: 20px;
+}
+
+td.gap {
+    font-weight: bolder;
+    font-size: 40PX;
+}
+
+footer {
+    text-align: center;
+    margin: 0 -8;
+    transition: 2s;
+}
+
+#sundayNotify {
+    text-align: center;
+    color: darkorchid;
+    font-family: 'Piedra', cursive;
+    margin: 5px;
+    font-size: 22px;
+    transition: 2s;
+
+}
+
+
+.current {
+      background: linear-gradient(270deg, #00ffd4, #56fb79);
+    background-size: 400% 400%;
+
+    -webkit-animation: current 4s ease infinite;
+    -moz-animation: current 4s ease infinite;
+    animation: current 4s ease infinite;
+}
+
+.ctime {
+ /*----background-image: url(https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a157511be893a37_13.%20Pale%20Violet%20Red.jpg);
+    background-size: 400% 400%;
+
+    -webkit-animation: Ctime 3s ease infinite;
+    -moz-animation: Ctime 3s ease infinite;
+    animation: Ctime 3s ease infinite;
+    color:;---*/
+    background: linear-gradient(180deg, rgba(255,136,0,1) 16%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 62%, rgba(19,136,8,1) 77%);
+    color: #000080;
+
+}
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: linear-gradient(90deg, #0696ca, #0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #0442bc;
+    color: white;
+}
+
+.fa-moon {
+    font-size: 20;
+    background: transparent;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fa-exchange-alt {
+    color: black;
+    background: transparent;
+    border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+
+button.day {
+    visibility: hidden;
+}
+
+
+button.night {
+    margin-left: 93%;
+    margin-top: -20;
+    margin-bottom: -40;
+    font-size: 20px;
+    background: transparent;
+    border: 0px solid transparent;
+    text-align: right;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+@-webkit-keyframes current {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes current {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes current {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.banner {
+    border: 2px double black;
+    border-radius: 25px;
+    padding: 100px;
+    font-size: 50px;
+    position: absolute;
+    margin: 15% 0px 0px 15%;
+    background: linear-gradient(270deg, #ff7272, #ac57ff);
+    background-size: 400% 400%;
+    animation: banner 30s ease infinite;
+    color: white;
+    transform: rotate(340deg);
+    filter: blur(-5px);
+    z-index: 3;
+}
+
+@keyframes banner {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+@-webkit-keyframes Ctime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Ctime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Ctime {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.blur {
+    filter: blur(5px);
+}
+
+#Clock {
+    text-align: left;
+}
+
+
+table:hover tr {
+  filter: blur(3px);
+    transition: .3s;
+  
+}
+
+table tr:hover {
+  filter: blur(0);
+}
