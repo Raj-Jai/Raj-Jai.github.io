@@ -8,7 +8,7 @@
   font-size:20px; 
 }
 body {
-  background-image: url('Desktop_bg.png');
+  background-image: url('favicon/Desktop_bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -20,6 +20,7 @@ div.head{
     word-spacing: 5px;
     letter-spacing: 5px;
     font-weight: bolder;
+  margin-top:25px;
 }
 
 
@@ -102,7 +103,7 @@ p:hover{
 
 
 span.start{
-    font-size: 40px;
+    font-size: 35px;
     color: #E4FB75;
     text-shadow: 2px 2px #eda8a3;
     letter-spacing: 3px;
@@ -110,7 +111,7 @@ span.start{
 
 span.end{
 
-    font-size: 40px;
+    font-size: 35px;
     color: #ff3847;
     text-shadow: 2px 2px #ae88f2d6;
     letter-spacing: 3px;
