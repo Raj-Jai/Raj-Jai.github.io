@@ -1,4 +1,4 @@
-var myArray = ['Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css', 'Logic', 'Common Sense'];
+var myArray = ['Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css', 'Logic', 'Common Sense','Safety'];
 var rand = Math.floor(Math.random() * myArray.length);
 var concat = myArray[rand];
 var d = new Date();
@@ -16,8 +16,8 @@ function random() {
 
         if (hm>= 900 && hm<= 990) {
             document.getElementById("t1").classList.add("ctime");
-        } else if (hm>= 1065 && hm<= 1155) {
-            document.getElementById("t3").classList.add("ctime");
+        } else if (hm>= 1035 && hm<= 1125) {
+            document.getElementById("t2").classList.add("ctime");
         } else {
             document.getElementById("sunday").innerHTML = ("It's break Time");
         }
@@ -28,10 +28,8 @@ function random() {
         document.getElementById("wednesday").classList.add("current");
         if (hm>= 900 && hm<= 990) {
             document.getElementById("w1").classList.add("ctime");
-        } else if (hm >= 960 && hm <= 1050) {
+        } else if (hm>= 1035 && hm<= 1125) {
             document.getElementById("w2").classList.add("ctime");
-        } else if (hm>= 1065 && hm<= 1155) {
-            document.getElementById("w3").classList.add("ctime");
         } else {
             document.getElementById("sunday").innerHTML = ("It's break Time");
         }
@@ -41,8 +39,8 @@ function random() {
         document.getElementById("thursday").classList.add("current");
         if (hm>= 900 && hm<= 990) {
             document.getElementById("th1").classList.add("ctime");
-        }  else if (hm>= 1065 && hm<= 1155) {
-            document.getElementById("th3").classList.add("ctime");
+        }  else if (hm>= 1035 && hm<= 1125) {
+            document.getElementById("th2").classList.add("ctime");
         } else {
             document.getElementById("sunday").innerHTML = ("It's break Time");
         }
@@ -53,15 +51,15 @@ function random() {
 
         if (hm>= 900 && hm<= 990) {
             document.getElementById("f1").classList.add("ctime");
-        } else if (hm>= 1065 && hm<= 1155) {
-            document.getElementById("f3").classList.add("ctime");
+        } else if (hm>= 1035 && hm<= 1125) {
+            document.getElementById("f2").classList.add("ctime");
         } else {
             document.getElementById("sunday").innerHTML = ("It's break Time");
         }
 
 
     }else if (n == 0 || n== 6) {
-        document.getElementById("sunday").innerHTML = ("It's break Time");
+        document.getElementById("sunday").innerHTML = ("Revise Karo!!");
 
 
 
@@ -71,8 +69,8 @@ function random() {
 
         if (hm>= 900 && hm<= 990) {
             document.getElementById("m1").classList.add("ctime");
-        } else if (hm>= 1065 && hm<= 1155) {
-            document.getElementById("m3").classList.add("ctime");
+        } else if (hm>= 1035 && hm<= 1125) {
+            document.getElementById("m2").classList.add("ctime");
         }else {
             document.getElementById("sunday").innerHTML = ("It's break Time");
         }
@@ -118,8 +116,3 @@ function onrun() {
     random();
     startTime();
 }
-
-
-Mousetrap.bind('s', function (e) {
-    swapStyleSheet('dark.css');
-});
