@@ -58,7 +58,21 @@ function random() {
         }
 
 
-    }else if (n == 0 || n== 6) {
+    }
+     else if (n == 6) {
+        document.getElementById("wednesday").classList.add("current");
+        if (hm>= 900 && hm<= 990) {
+            document.getElementById("s1").classList.add("ctime");
+        } else if (hm>= 1035 && hm<= 1125) {
+            document.getElementById("s2").classList.add("ctime");
+        } else {
+            document.getElementById("sunday").innerHTML = ("It's break Time");
+        }
+
+
+    }
+    
+    else if (n == 0 ) {
         document.getElementById("sunday").innerHTML = ("Revise Karo!!");
 
 
