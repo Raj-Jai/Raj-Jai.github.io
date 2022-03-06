@@ -30,10 +30,13 @@ div.head{
   float: left;
   width: 15%;
   margin: 2%;
-  background: #2be4ec70;
+  background: rgba(43, 228, 236, 0.439);
   padding: 20px;
   text-align: center;
   border-radius: 10px;
+}
+#special{
+  background: #ff94f69a;
 }
 
 /* Clear floats after the columns */
