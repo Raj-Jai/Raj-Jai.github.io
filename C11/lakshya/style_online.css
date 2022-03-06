@@ -1,0 +1,418 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+  background-image:url("https://Raj-Jai.github.io/favicon/bg2light.png");
+    /*font-family: 'Piedra', cursive;*/
+    font-family: 'Bangers', Impact, Charcoal, sans-serif;
+    background-size: 100% 100%;
+    letter-spacing:0.5px;
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+    transition: 2s;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+.developedtext {
+    
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    text-align: center;
+    transition: 2s;
+}
+
+#love {}
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+
+
+table {
+    background: rgb(127,255,200);
+background: -moz-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
+background: -webkit-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
+background: linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fffc8",endColorstr="#83fff9",GradientType=1);    margin: 45 auto 10;
+    max-width: 89%;
+    border-radius: 20px;
+    overflow: hidden;
+  
+   -webkit-box-shadow: 0px 0px 103px -39px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 103px -39px rgba(0,0,0,1);
+box-shadow: 0px 0px 103px -39px rgba(0,0,0,1);
+    
+    transition: 2s;
+
+}
+
+
+td {
+    padding: 7px 14px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+td a {
+    text-decoration: none;
+}
+
+td span {
+    color: rgb(0, 0, 0);
+    transition: transform 0.4s ease-in-out, opacity .5s ease-in-out;
+    transition-delay: 0.2s;
+}
+
+td::before {
+    content: attr(data-items);
+    color: #2600ff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translate(-150%, 0);
+    transition: transform 0.4s ease-in-out, opacity .6s ease-in-out;
+}
+
+td:hover span {
+    opacity: 0;
+}
+
+
+td:hover::before {
+    opacity: 1;
+    transform: translate(-25%, 0);
+    transition-delay: .4s;
+}
+
+
+
+
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+.thead {
+    Color: black;
+    background: rgb(127,214,255);
+    background: -moz-linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
+    background: -webkit-linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
+    background: linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fd6ff",endColorstr="#65fff8",GradientType=1);}
+
+td.time {
+    
+    font-size: 20px;
+}
+
+td.gap {
+    font-weight: bolder;
+    font-size: 40PX;
+}
+
+footer {
+    text-align: center;
+    margin: 0 -8;
+    transition: 2s;
+}
+
+#sunday {
+    text-align: center;
+    color: #2106f9;
+
+    margin: 5px;
+    font-size: 22px;
+    transition: 2s;
+    position: absolute;
+    top:75px;
+    left: 50%;
+    margin-left: -60px;
+
+}
+
+
+.current {
+    background: linear-gradient(270deg, #0ce6fd, #82d8ff);
+    background-size: 400% 400%;
+    
+    -webkit-box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
+-moz-box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
+box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
+
+    -webkit-animation: current 4s ease infinite;
+    -moz-animation: current 4s ease infinite;
+    animation: current 4s ease infinite;
+}
+
+td.ctime {
+       background: rgb(14,247,199);
+background: linear-gradient(90deg, rgba(14,247,199,1) 2%, rgba(129,205,251,1) 52%, rgba(146,255,155,1) 98%); background-size: 400% 400%;
+
+    -webkit-animation: ctimeanime 4s ease infinite;
+    -moz-animation: ctimeanime 4s ease infinite;
+    animation: ctimeanime 4s ease infinite;
+    color: white;
+
+}
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: linear-gradient(90deg, #0696ca, #0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-envelope-open:hover {
+    background: #0442bc;
+    color: white;
+}
+
+.fa-moon {
+    font-size: 20;
+    background: transparent;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fa-exchange-alt {
+    color: black;
+    background: transparent;
+    border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+
+button.day {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+button.night {
+    
+    margin-left: 93%;
+    margin-top: -17;
+    margin-bottom: -40;
+    background: transparent;
+    border: 0px solid transparent;
+    text-align: right;
+     position: absolute;
+    top: 95px;
+    right: 5%;
+    font-size: 18px;
+    letter-spacing:2; 
+    color: #000;
+    text-shadow: 2px 2px #eaeaea;
+     font-family: 'Bangers', Impact, Charcoal, sans-serif;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+
+span.starth{
+    font-size: 30px;
+    letter-spacing:2; 
+    color: #860ceb;
+    text-shadow: 2px 2px #64c5fd;
+
+}
+
+span.endh{
+
+    font-size: 30px;
+    letter-spacing:2; 
+    color: #ff3847;
+    text-shadow: 2px 2px #7066ffd6;
+}
+
+span.smallh{
+
+    font-size: 18px;
+    letter-spacing:2; 
+    color: #000;
+     text-shadow: 2px 2px #eaeaea;
+}
+
+
+@-webkit-keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes current {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.banner {
+    border: 2px double black;
+    border-radius: 25px;
+    padding: 100px;
+    font-size: 50px;
+    position: absolute;
+    margin: 15% 0px 0px 15%;
+    background: linear-gradient(270deg, #ff7272, #ac57ff);
+    background-size: 400% 400%;
+    animation: banner 30s ease infinite;
+    color: white;
+    transform: rotate(340deg);
+    filter: blur(-5px);
+    z-index: 3;
+}
+
+@keyframes banner {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+
+@-webkit-keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes ctimeanime {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+
+
+
+.blur {
+    filter: blur(5px);
+}
+
+#Clock {
+    margin: 5px;
+    transition: 2s;
+    position: absolute;
+ 
+    margin-top: -17;
+     top: 100px;
+    left: 5%;
+}
+
+
+@media screen and (max-width: 560px) {
+    
+    body{
+    	 background-size: auto 100%;
+    }
+     
+ * , td.time {
+        font-size: 15px;
+    }
+    
+    td:hover::before {
+        transform: translate(-10%, 0);
+    }
+
+
+}
+
+#Countdown{
+    margin-top:10px;
+    
+}
+
