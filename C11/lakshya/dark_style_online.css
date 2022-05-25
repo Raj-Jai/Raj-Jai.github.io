@@ -2,10 +2,10 @@
 body {
     margin: 5;
     padding: 5;
-     background-image:url("https://Raj-Jai.github.io/favicon/bg2dark.png");
+     /*background-image:url("https://Raj-Jai.github.io/favicon/bg2dark.png");*/
    font-family: 'Bangers', Impact, Charcoal, sans-serif;
     /*font-family: 'Piedra', cursive;*/
-    font-family: 'Bangers', Impact, Charcoal, sans-serif;
+    background-color: #000000;
     background-size: 100% 100%;
     letter-spacing:0.5px;
 }
