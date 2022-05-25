@@ -2,8 +2,11 @@
 body {
     margin: 5;
     padding: 5;
-  background-image:url("https://Raj-Jai.github.io/favicon/bg2light.png");
+ /* background-image:url("https://Raj-Jai.github.io/favicon/bg2light.png");*/
     /*font-family: 'Piedra', cursive;*/
+    background-color: #FFDEE9;
+    background-image: linear-gradient(143deg, #FFDEE9 14%, #B5FFFC 100%);
+    background-repeat: no-repeat;
     font-family: 'Bangers', Impact, Charcoal, sans-serif;
     background-size: 100% 100%;
     letter-spacing:0.5px;
@@ -51,11 +54,13 @@ td {
 
 
 table {
-    background: rgb(127,255,200);
+   /* background: rgb(127,255,200);
 background: -moz-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
 background: -webkit-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
 background: linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fffc8",endColorstr="#83fff9",GradientType=1);    margin: 45 auto 10;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fffc8",endColorstr="#83fff9",GradientType=1);    margin: 45 auto 10;*/
+    background-color: #FFDEE9;
+    background-image: linear-gradient(301deg, #FFDEE9 14%, #B5FFFC 100%);
     max-width: 89%;
     border-radius: 20px;
     overflow: hidden;
@@ -116,10 +121,10 @@ td:hover::before {
 .thead {
     Color: black;
     background: rgb(127,214,255);
-    background: -moz-linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
-    background: -webkit-linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
-    background: linear-gradient(84deg, rgba(127,214,255,1) 0%, rgba(101,255,248,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fd6ff",endColorstr="#65fff8",GradientType=1);}
+    background: -moz-linear-gradient(#adfffb 0%,#ddedf2 100%);
+    background: -webkit-linear-gradient((#adfffb 0%,#ddedf2 100%);
+    background: linear-gradient((#adfffb 0%,#ddedf2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#adfffb",endColorstr="##ddedf2",GradientType=1);}
 
 td.time {
     
