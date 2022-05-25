@@ -158,7 +158,7 @@ footer {
 
 
 .current {
-    background: linear-gradient(270deg, #0ce6fd, #82d8ff);
+    background: linear-gradient(270deg, #ffc9db, #9fe0ff);
     background-size: 400% 400%;
     
     -webkit-box-shadow: 1px 0px 49px -6px rgba(0,0,0,0.7);
