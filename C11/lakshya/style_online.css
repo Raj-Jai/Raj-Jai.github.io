@@ -57,8 +57,8 @@ table {
    /* background: rgb(127,255,200);
 background: -moz-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
 background: -webkit-linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
-background: linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fffc8",endColorstr="#83fff9",GradientType=1);    margin: 45 auto 10;*/
+background: linear-gradient(166deg, rgba(127,255,200,1) 0%, rgba(131,255,249,1) 100%);*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7fffc8",endColorstr="#83fff9",GradientType=1);    margin: 45 auto 10;
     background-color: #FFDEE9;
     background-image: linear-gradient(301deg, #FFDEE9 14%, #B5FFFC 100%);
     max-width: 89%;
@@ -122,8 +122,8 @@ td:hover::before {
     Color: black;
     background: rgb(127,214,255);
     background: -moz-linear-gradient(#adfffb 0%,#ddedf2 100%);
-    background: -webkit-linear-gradient((#adfffb 0%,#ddedf2 100%);
-    background: linear-gradient((#adfffb 0%,#ddedf2 100%);
+    background: -webkit-linear-gradient(#adfffb 0%,#ddedf2 100%);
+    background: linear-gradient(#adfffb 0%,#ddedf2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#adfffb",endColorstr="##ddedf2",GradientType=1);}
 
 td.time {
