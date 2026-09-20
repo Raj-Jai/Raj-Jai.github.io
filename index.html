@@ -10,10 +10,12 @@
   <meta property="og:description" content="Engineering notebook: DSP, systems, realtime software.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://raj-jai.github.io/">
-  <meta property="og:image" content="https://raj-jai.github.io/favicon/Sort_out.png">
+  <meta property="og:image" content="https://raj-jai.github.io/favicon/og.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0d0f10">
-  <link rel="icon" href="favicon/Sort_out.png" type="image/png">
+  <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon/icon-64.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -57,12 +59,12 @@
 
       <article class="specimen" aria-labelledby="gs-title">
         <div class="specimen-top">
-          <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2-3 3-3 5 0s3 3 5 0 3-3 5 0 2 2 3 1" opacity=".55"/><line x1="12" y1="5" x2="12" y2="19" opacity=".3"/><line class="signal" x1="12" y1="12" x2="15" y2="7" stroke="currentColor"/></svg>
+          <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 16a8 8 0 0 1 16 0" opacity=".55"/><path d="M12 16v-2" opacity=".3"/><circle cx="12" cy="16" r="1" opacity=".6"/><line class="signal" x1="12" y1="16" x2="15.5" y2="9.5" stroke="currentColor"/><path d="M6 21c1-1.4 2-1.4 3 0s2 1.4 3 0 2-1.4 3 0 1.2 1 2 .4" opacity=".4"/></svg>
           <div><p class="meta">01 / GUITARSCOPE · DSP / WEB · 2026 · MIT</p><h3 id="gs-title" style="margin:.2em 0">Real-time guitar tuner + chord detector</h3></div>
           <p class="meta">STATUS — shipped</p>
         </div>
         <div class="artifact" aria-hidden="true">
-          <svg viewBox="0 0 600 64" fill="none" stroke="#8d918d" stroke-width="1.5"><path d="M0 32 Q30 8 60 32 T120 32 T180 32 T240 32 T300 32 T360 32 T420 32 T480 32 T540 32 T600 32" opacity=".6"/><line x1="300" y1="6" x2="300" y2="58" stroke="#d6ff3f"/><path d="M300 32 L318 14" stroke="#d6ff3f" stroke-width="2"/></svg>
+          <svg viewBox="0 0 600 96" fill="none" aria-hidden="true"><path d="M0 38q10-14 20-4 10-18 20-6 10 12 20 4 10-10 20-4 10-6 20 2T140 36T180 36T220 36T260 36T300 36T340 36T380 36T420 36T460 36T500 36T540 36T580 36L600 34" stroke="#8d918d" stroke-width="1.25" opacity=".5"/><path d="M0 46Q40 40 80 37T160 32T240 30T320 30T400 30T480 30T560 30" stroke="#d6ff3f" stroke-width="1.75"/><circle cx="560" cy="30" r="2.6" fill="#d6ff3f"/><line x1="300" y1="8" x2="300" y2="62" stroke="#8d918d" stroke-width="1" stroke-dasharray="3 3" opacity=".45"/><line x1="220" y1="70" x2="380" y2="70" stroke="#8d918d" opacity=".4"/><path d="M220 67v6M260 67v6M300 66v8M340 67v6M380 67v6" stroke="#8d918d" opacity=".5"/><rect x="470" y="12" width="92" height="36" stroke="#8d918d" stroke-dasharray="4 3" opacity=".45"/><text x="8" y="16" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace" letter-spacing="1">raw</text><text x="88" y="22" fill="#d6ff3f" font-size="8" font-family="IBM Plex Mono,monospace" letter-spacing="1">YIN</text><text x="474" y="24" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace" letter-spacing="1">CHORD</text><text x="216" y="82" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace">-50c</text><text x="256" y="82" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace">-25c</text><text x="296" y="82" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace">0c</text><text x="336" y="82" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace">+25c</text><text x="376" y="82" fill="#8d918d" font-size="8" font-family="IBM Plex Mono,monospace">+50c</text></svg>
           <p class="arch-line">Mic → AudioWorklet → DSP Worker (YIN + HPS) → pitch / chord → UI · Vitest suite + benchmarks</p>
         </div>
         <div class="specimen-body">
