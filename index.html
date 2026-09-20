@@ -1,77 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <link rel="icon" href="https://raj-jai.github.io/favicon/Sort_out.png" type="image/png">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/style.css">
- <title>Sort Out</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jai Raj — Software, Systems &amp; Engineering</title>
+  <meta name="description" content="Jai Raj — IIT Kharagpur. GuitarScope DSP tuner, QuickChat realtime chat, KV Store Raft, ControlDeck Linux telemetry.">
+  <link rel="canonical" href="https://raj-jai.github.io/">
+  <meta property="og:title" content="Jai Raj — Sort Out">
+  <meta property="og:description" content="Engineering notebook: DSP, systems, realtime software.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://raj-jai.github.io/">
+  <meta property="og:image" content="https://raj-jai.github.io/favicon/Sort_out.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0d0f10">
+  <link rel="icon" href="favicon/Sort_out.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-image: url('favicon/Desktop_bg.png');">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Sort Out home"><span class="brand-mark">SORT OUT / JAI RAJ</span></a>
+      <nav class="site-nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#projects">work</a></li>
+          <li><a href="#engineering">more</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#archive">archive</a></li>
+          <li><a href="https://github.com/Raj-Jai" target="_blank" rel="noopener noreferrer">github ↗</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<div class="head"><span class="starth">Sort  </span> <span class="endh">     Out</span></div>
+  <main id="main">
+    <section class="hero container" aria-labelledby="page-title">
+      <hr class="hero-rule">
+      <p class="eyebrow">SORT OUT — engineering notebook · 23 repos</p>
+      <h1 id="page-title">Jai Raj<br><span class="muted">I build things to understand how they work.</span></h1>
+      <p class="lede">Electronics &amp; Electrical Communication, IIT Kharagpur. DSP, distributed systems, realtime audio, Linux tooling.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://github.com/Raj-Jai" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a class="text-link" href="#projects">↓ See selected work</a>
+      </div>
+      <ul class="interests" aria-label="Current interests">
+        <li><strong>CURRENTLY</strong></li>
+        <li>DSP</li><li>systems</li><li>realtime audio</li><li>Linux</li>
+      </ul>
+    </section>
 
-<div class="row">
- 
-  <div class="column" id="special" >
-   <span class="start">High School</span>
-  <div class="dropdown-content">
-    <p><a class="drp"  class="ends" href="C11/lakshya/index.html">Lakshya JEE</a> </p>
-  
-  <p><a class="drp" class="ends" href="C11/online/index.html">Arjuna JEE</a> </p>
-    <p><a class="drp" class="ends" href="C11/jvm/index.html">J.V.M</a> </p>
-     </div>
-</div>
+    <section id="projects" class="section container" aria-labelledby="projects-title">
+      <p class="sec-num">01</p>
+      <h2 id="projects-title">Selected work</h2>
+      <div class="section-head"><p>Four entries with the most story. Full READMEs on GitHub — this page is the index.</p></div>
 
-  <div class="column" >
-    <span class="end">School Project</span>
-  <div class="dropdown-content">
-  <p><a class="drp" class="starts" href="School_project/index.html">Tour & Travels</a> </p>
-  </div>
-</div>
+      <article class="specimen" aria-labelledby="gs-title">
+        <div class="specimen-top">
+          <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12c2-3 3-3 5 0s3 3 5 0 3-3 5 0 2 2 3 1" opacity=".55"/><line x1="12" y1="5" x2="12" y2="19" opacity=".3"/><line class="signal" x1="12" y1="12" x2="15" y2="7" stroke="currentColor"/></svg>
+          <div><p class="meta">01 / GUITARSCOPE · DSP / WEB · 2026 · MIT</p><h3 id="gs-title" style="margin:.2em 0">Real-time guitar tuner + chord detector</h3></div>
+          <p class="meta">STATUS — shipped</p>
+        </div>
+        <div class="artifact" aria-hidden="true">
+          <svg viewBox="0 0 600 64" fill="none" stroke="#8d918d" stroke-width="1.5"><path d="M0 32 Q30 8 60 32 T120 32 T180 32 T240 32 T300 32 T360 32 T420 32 T480 32 T540 32 T600 32" opacity=".6"/><line x1="300" y1="6" x2="300" y2="58" stroke="#d6ff3f"/><path d="M300 32 L318 14" stroke="#d6ff3f" stroke-width="2"/></svg>
+          <p class="arch-line">Mic → AudioWorklet → DSP Worker (YIN + HPS) → pitch / chord → UI · Vitest suite + benchmarks</p>
+        </div>
+        <div class="specimen-body">
+          <p>Browser tuner using Web Audio, YIN pitch detection, and harmonic analysis. Honest no-signal states, open-string matching, 60-chord vocabulary.</p>
+          <p class="meta">STACK — React · TypeScript · Web Audio</p>
+          <div class="card-links"><a href="https://github.com/Raj-Jai/GuitarScope" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        </div>
+      </article>
 
-  <div class="column" >
-    <span class="start">Class 10</span>
-  <div class="dropdown-content">
-  <p><a class="drp" class="ends" href="C10/Routine/index.html">Routine</a> </p>
-  <p><a class="drp" class="starts" href="C10/Proto1/index.html">Prototype 1</a> </p>
-  <p><a class="drp" class="ends" href="C10/Proto2/index.html">Prototype 2</a> </p>
-  </div>
-</div>
- <div class="column" class >
-    <a class="no" href="https://onecompiler.com/cpp/42arsnx4h"><span class="end">Pass Encrpyt</span></a>
-</div>
+      <div class="bento">
+        <article class="card" aria-labelledby="qc-t">
+          <div class="icon-row"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="2" class="signal"/><circle cx="4" cy="6" r="1.6" opacity=".55"/><circle cx="4" cy="18" r="1.6" opacity=".55"/><circle cx="20" cy="6" r="1.6" opacity=".55"/><circle cx="20" cy="18" r="1.6" opacity=".55"/><path d="M10 11 5 7M10 13 5 17M14 11l5-4M14 13l5 4" opacity=".4"/></svg><p class="meta">02 / QUICKCHAT · REALTIME</p></div>
+          <h3 id="qc-t">Multi-instance chat, Redis fan-out</h3>
+          <p>Socket.IO + Redis pub/sub, no sticky sessions. MongoDB history, presence, typing.</p>
+          <p class="stack">React · Socket.IO · Redis · MongoDB</p>
+          <div class="card-links"><a href="https://github.com/Raj-Jai/QuickChat" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        </article>
+        <div class="bento-side">
+          <article class="card" aria-labelledby="kv-t">
+            <div class="icon-row"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="2" y="9" width="5" height="5" class="signal"/><rect x="9" y="9" width="5" height="5" opacity=".55"/><rect x="16" y="9" width="5" height="5" opacity=".3"/><path d="M4 11v-1M6 11v-2" class="signal"/></svg><p class="meta">03 / KV-STORE · GO</p></div>
+            <h3 id="kv-t">Raft KV with WAL + snapshots</h3>
+            <p>Leader, replicated log, linearizable writes, chaos tests.</p>
+            <p class="stack">Go · Raft · WAL</p>
+            <div class="card-links"><a href="https://github.com/Raj-Jai/kv-store" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+          </article>
+          <article class="card" aria-labelledby="cd-t">
+            <div class="icon-row"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 10l3-4 3 4 3-5 3 5 3-3 3 3" opacity=".55"/><path d="M4 14l4-2 3 2" class="signal"/><rect x="14" y="15" width="7" height="5" opacity=".55"/></svg><p class="meta">04 / CONTROLDECK</p></div>
+            <h3 id="cd-t">Linux touch telemetry deck</h3>
+            <p>MPRIS, NTP audio, clipboard over WebSockets. 5-page swipe UI.</p>
+            <p class="stack">TypeScript · WebSockets · Linux</p>
+            <div class="card-links"><a href="https://github.com/Raj-Jai/control-deck" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <div class="column" >
-    <span class="start">Class 9</span>
-  <div class="dropdown-content">
-  <p><a class="drp" class="starts" href="C9/Exam/index.html">Exam Time Table</a> </p>
-  <p><a class="drp" class="ends" href="C9/Routine/index.html">Routine</a> </p>
-  </div>
-</div>
+    <section id="engineering" class="section container" aria-labelledby="eng-title">
+      <p class="sec-num">02</p><h2 id="eng-title">Other engineering work</h2>
+      <div class="section-head"><p>Tools and lower-level builds.</p></div>
+      <div class="card-grid small">
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="6" opacity=".5"/><rect x="6" y="14" width="12" height="6" opacity=".3"/><path d="M12 10v4" class="signal"/></svg><h3>vm-simulation</h3><p>Paging + replacement policies in C.</p><p class="stack">C · OS</p><div class="card-links"><a href="https://github.com/Raj-Jai/vm-simulation" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="4" y="4" width="12" height="8" opacity=".5"/><circle cx="8" cy="8" r="1" opacity=".5"/><path d="M10 12v4M4 18h16" class="signal"/><circle cx="10" cy="18" r="1.4" stroke="currentColor"/></svg><h3>window-focus-dbus</h3><p>Focused window over D-Bus for GNOME.</p><p class="stack">JS · D-Bus</p><div class="card-links"><a href="https://github.com/Raj-Jai/window-focus-dbus" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M4 4h16M4 9h16M4 14h16M4 19h16M9 4v16M14 4v16" opacity=".25"/><path d="M6 18 12 12l4-2 3-3" class="signal" stroke-width="1.8"/><circle cx="6" cy="18" r="1.4" opacity=".6"/><rect x="17" y="5" width="2.4" height="2.4" opacity=".6"/></svg><h3>path-vision</h3><p>Pathfinding visualisation.</p><p class="stack">JavaScript</p><div class="card-links"><a href="https://github.com/Raj-Jai/path-vision" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M3 8h18M3 12h18M3 16h18" opacity=".35"/><line x1="15" y1="5" x2="15" y2="19" opacity=".5"/><circle cx="10" cy="12" r="1.6" class="signal"/></svg><h3>Guitrack</h3><p>Early string-tracking before GuitarScope.</p><p class="stack">JS · Audio</p><div class="card-links"><a href="https://github.com/Raj-Jai/Guitrack" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+      </div>
+      <div class="section-head sub"><h3>Earlier projects &amp; experiments</h3></div>
+      <div class="card-grid small">
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="4" width="14" height="16" opacity=".5"/><path d="M8 9h8M8 12h8" opacity=".4"/><path d="M8 15h5" class="signal"/></svg><h3>phonebook</h3><p>Indexed-record CRUD.</p><p class="stack">JavaScript</p><div class="card-links"><a href="https://github.com/Raj-Jai/phonebook" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="5" cy="8" r="1.4" opacity=".5"/><circle cx="10" cy="8" r="1.4" opacity=".5"/><circle cx="15" cy="8" r="1.4" opacity=".5"/><path d="M6 10 11 15M11 10l-1 5M14 10l-3 5" opacity=".4"/><circle cx="11" cy="17" r="1.6" class="signal"/></svg><h3>NLP Chatbot</h3><p>Tokens → representation tests.</p><p class="stack">Python · NLP</p><div class="card-links"><a href="https://github.com/Raj-Jai/NLP_Chatbot" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="5" cy="7" r="1.6" opacity=".6"/><circle cx="19" cy="17" r="1.6" opacity=".6"/><path d="M7 7h9v7" class="signal"/></svg><h3>Tour &amp; Travels</h3><p>School site, kept as-is.</p><p class="stack">HTML</p><div class="card-links"><a href="School_project/index.html">Open site →</a></div></article>
+        <article class="card"><svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M3 12h7" opacity=".5"/><path d="M14 12h7" opacity=".5"/><path d="M10 8l4 4-4 4" class="signal"/></svg><h3>Pass Encrypt</h3><p>Char-stream transform demo.</p><p class="stack">C++</p><div class="card-links"><a href="https://onecompiler.com/cpp/42arsnx4h" target="_blank" rel="noopener noreferrer">Open demo ↗</a></div></article>
+      </div>
+    </section>
 
- <div class="column" Id="lastc">
-    
-  <span class="end"> Routine Versions</span>
-  <div class="dropdown-content">
-  <p><a class="drp" class="ends" href="Routine_version/Routine1.1.html">Routine v1.1</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine1.2.html">Routine v1.2</a> </p>
-  <p><a class="drp" class="ends" href="Routine_version/Routine1.3.html">Routine v1.3</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine1.4.html">Routine v1.4</a> </p>
-   <p><a class="drp" class="ends" href="Routine_version/Routine1.5.html">Routine v1.5</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine1.6.html">Routine v1.6</a> </p>
-  <p><a class="drp" class="ends" href="Routine_version/Routine1.7.html">Routine v1.7</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine1.8.html">Routine v1.8</a> </p>
-  <p><a class="drp" class="ends" href="Routine_version/Routine1.9.html">Routine v1.9</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine2.0.html">Routine v2.0</a> </p>
-  <p><a class="drp" class="ends" href="Routine_version/Routine2.1.html">Routine v2.1</a> </p>
-   <p><a class="drp" class="starts" href="Routine_version/Routine2.2.html">Routine v2.2</a> </p>
-  <p><a class="drp" class="ends" href="Routine_version/Routine2.5/index.html">Routine v2.5</a> </p>
-  <p><a class="drp" class="starts" href="Routine_version/Routine2.7/index.html">Routine v2.7</a> </p>
-  
-</div>
-  </div>
+    <section id="about" class="section container" aria-labelledby="about-title">
+      <p class="sec-num">03</p><h2 id="about-title">About</h2>
+      <div class="about-grid">
+        <div><p>Built because I wanted to know what was happening underneath. Sort Out started as school routines; now it logs systems I take apart and rebuild.</p><p><a href="https://github.com/Raj-Jai" target="_blank" rel="noopener noreferrer">github.com/Raj-Jai</a> · Ranchi / IIT Kharagpur</p></div>
+        <ul class="skills-group"><li><span class="mono-label">LANG —</span> C++ · Python · Go · JS/TS</li><li><span class="mono-label">SYS —</span> Linux · Networking · Distributed</li><li><span class="mono-label">WEB —</span> React · Node · WebSockets</li><li><span class="mono-label">SIG —</span> DSP · Web Audio</li></ul>
+      </div>
+    </section>
 
-</div>
+    <section id="archive" class="section container" aria-labelledby="archive-title">
+      <p class="sec-num">04</p><h2 id="archive-title">Archive</h2>
+      <div class="section-head"><p>What I kept from learning years. Not hidden — just filed.</p><button type="button" class="btn small" id="archive-toggle" aria-expanded="true" aria-controls="archive-body">Collapse</button></div>
+      <div id="archive-body" class="log">
+        <div class="log-year"><p>2019 — CLASS 9</p><div class="log-row"><span>school</span><ul><li><a href="C9/Exam/index.html">Exam Time Table</a></li><li><a href="C9/Routine/index.html">Routine</a></li></ul></div></div>
+        <div class="log-year"><p>2021 — CLASS 10</p><div class="log-row"><span>school</span><ul><li><a href="C10/Routine/index.html">Routine</a></li><li><a href="C10/Proto1/index.html">Prototype 01</a></li><li><a href="C10/Proto2/index.html">Prototype 02</a></li></ul></div></div>
+        <div class="log-year"><p>2022–23 — JEE / HIGH SCHOOL</p><div class="log-row"><span>prep</span><ul><li><a href="C11/lakshya/index.html">Lakshya JEE</a></li><li><a href="C11/online/index.html">Arjuna JEE</a></li><li><a href="C11/jvm/index.html">Jawahar Vidya Mandir Shyamali (J.V.M.)</a></li></ul></div></div>
+        <div class="log-year"><p>ROUTINE LOG — v1.1 → v2.7</p><div class="log-row"><span>iterations</span><ul class="pills"><li><a href="Routine_version/Routine1.1.html">v1.1</a></li><li><a href="Routine_version/Routine1.2.html">v1.2</a></li><li><a href="Routine_version/Routine1.3.html">v1.3</a></li><li><a href="Routine_version/Routine1.4.html">v1.4</a></li><li><a href="Routine_version/Routine1.5.html">v1.5</a></li><li><a href="Routine_version/Routine1.6.html">v1.6</a></li><li><a href="Routine_version/Routine1.7.html">v1.7</a></li><li><a href="Routine_version/Routine1.8.html">v1.8</a></li><li><a href="Routine_version/Routine1.9.html">v1.9</a></li><li><a href="Routine_version/Routine2.0.html">v2.0</a></li><li><a href="Routine_version/Routine2.1.html">v2.1</a></li><li><a href="Routine_version/Routine2.2.html">v2.2</a></li><li><a href="Routine_version/Routine2.5/index.html">v2.5</a></li><li><a href="Routine_version/Routine2.7/index.html">v2.7</a></li></ul></div></div>
+      </div>
+    </section>
+  </main>
 
+  <div class="container" aria-hidden="true"><svg class="wave-sep" viewBox="0 0 600 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M0 12 Q30 2 60 12 T120 12 T180 12 T240 12 T300 12 T360 12 T420 12 T480 12 T540 12 T600 12"/></svg></div>
+  <footer class="site-footer"><div class="container footer-inner"><p>Jai Raj · IIT Kharagpur</p><p><a href="https://github.com/Raj-Jai" target="_blank" rel="noopener noreferrer">GitHub ↗</a></p><p>© 2026</p></div></footer>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
